@@ -9,7 +9,7 @@ public static class SwaggerConfig
         services.AddSwaggerGen(c =>
         {
             c.SwaggerDoc(
-                "v1",
+                "v1", 
                 new OpenApiInfo
                 {
                     Title = "Cadastro de Produtos - Redis",
